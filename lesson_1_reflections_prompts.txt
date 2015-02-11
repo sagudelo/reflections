@@ -1,32 +1,35 @@
-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+--How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
 It helped because i was able to have a good file to look at and compare with. It made it quicker because i did not have to go line by line 
 to make sure there was no typos, instead i could just look for differences.
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+--How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
 Because let say you made a mistake in your code but can't seem to find it anywhere, but a couple days ago, before you made some changes,
 the code was working fine. So what you could do is go back to one of those earlier working versions instead of having to go through every
 line of the program or worse having to start from scratch.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions
+--What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions
  automatically saved, like Google docs does?
 
-Pros you are able to control the amount of commits ebing created, con it may not at the approiate times 
+Pros: you are able to control the amount of commits being created 
+Con: it may not at the approiate times,you notice you should have made a commit
 
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-I think it is so when that when you have to change a variable or a name across multiple files it can be easier to be done when having multiple files in one commit
-
-
-
-How can you use the commands git log and git diff to view the history of files?
-The git log shows me the different commits and git diff can used to compare to an earlier file in history.
+--Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+I think it is so when that when you have to change a variable or a name across multiple files it can be easier to be done when having multiple files in one commit.
+Also it is oriented more towards programmers then the average user like google docs is.
 
 
-How might using version control make you more confident to make changes that could break something?
-it would make me more comfortable because i know that i could go back and compare to a working version to see what i did differently that 
-have caused the bug.
+
+--How can you use the commands git log and git diff to view the history of files?
+The git log shows me the changes made to the repository and git diff can used to compare to see what has changed between two files.
 
 
-Now that you have your workspace set up, what do you want to try using Git for?
+--How might using version control make you more confident to make changes that could break something?
+it would make me more comfortable because i know that i could go back and compare to a working version to see what was added in a version that
+caused the bug.
+
+
+--Now that you have your workspace set up, what do you want to try using Git for?
 Just to compare two version of a file and purposely crash one to see the error.
